@@ -1,0 +1,15 @@
+#We define a fiucntion called tri_recursion
+def tri_recursion(i):
+    #condition for the code to be exercuted
+        if(i > 0):
+            result = i + tri_recursion(i - 1)
+            print(result)
+         #if the comdition is not true   
+        else:
+            result =0
+        return result
+
+print("\n\nRecursion Example Results")
+#calling the function
+tri_recursion(10)
+
